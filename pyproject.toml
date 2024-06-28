@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "advance-rag"
+version = "0.1.0"
+description = ""
+authors = ["Mestizo <andreulll9@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bs4 = "^0.0.2"
+langchain = "^0.2.5"
+langgraph = "^0.1.1"
+langchainhub = "^0.1.20"
+langchain-community = "^0.2.5"
+tavily-python = "^0.3.3"
+python-dotenv = "^1.0.1"
+black = "^24.4.2"
+isort = "^5.13.2"
+pytest = "^8.2.2"
+langchain-openai = "^0.1.9"
+chromadb = "^0.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
