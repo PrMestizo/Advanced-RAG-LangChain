@@ -1,6 +1,8 @@
 # Advanced RAG control flow with LangGraph🦜🕸:
 Implementation of Reflective RAG, Self-RAG & Adaptive RAG tailored towards production-oriented applications with LangGraph🦜🕸️.
 
+![Arquitectura Advance-Rag](assets/langgraph_advance_rag.png)
+
 ## Features
 * **Refactored Notebooks:** The original LangChain notebooks have been refactored to enhance readability, maintainability, and usability for developers.
 * **Production-Oriented:** The codebase is designed with a focus on production readiness, allowing developers to seamlessly transition from experimentation to deployment.
