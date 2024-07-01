@@ -12,28 +12,44 @@ Implementation of Reflective RAG, Self-RAG & Adaptive RAG tailored towards produ
 ## Environment Variables
 To run this project, you will need to add the following environment variables to your .env file
 
-```PYTHONPATH=/{YOUR_PATH_TO_PROJECT}/langgraph-course```
+```
+PYTHONPATH=/{YOUR_PATH_TO_PROJECT}/Advanced-RAG-LangChain
+```
 
-```OPENAI_API_KEY```
+```
+OPENAI_API_KEY=<your-openai-api-key>
+```
+How to get you OpenAI API Key https://platform.openai.com/account/api-keys
 
-```TAVILY_API_KEY```
+```
+TAVILY_API_KEY=<your-tavily-api-key>
+```
+How to get you Tavily API Key https://docs.mindmac.app/how-to.../internet-browsing/get-tavily-key
 
 ## Run Locally
 Clone the project
 
-```git clone https://github.com/emarco177/langgraph-course.git```
+```
+git clone https://github.com/PrMestizo/Advanced-RAG-LangChain.git
+```
 
 Go to the project directory
 
-```cd langgraph-course```
+```
+cd Advanced-RAG-LangChain
+```
 
 Install dependencies
 
-```poetry install```
+```
+poetry install
+```
 
 Start the flask server
 
-```poetry run app.py```
+```
+poetry run app.py
+```
 
 
 
